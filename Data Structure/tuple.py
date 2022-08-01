@@ -121,7 +121,60 @@ print(green)
 print(yellow)
 print(red)
 
+# Using Asterisk*
+
+# Assign the rest of the values as a list called "red":
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+(green, yellow, *red) = fruits
+print(green)
+print(yellow)
+print(red)
 
 
 # ********************************************************* #
 
+# ********************************************************* #
+
+# Loop Tuples
+
+# Iterate through the items and print the values:
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
+
+# Loop Through the Index Numbers
+
+#  Print all items by referring to their index number:
+thistuple = ("apple", "banana", "cherry")
+for i in range(len(thistuple)):
+  print(thistuple[i])
+
+# Using a While Loop
+
+# Print all items, using a while loop to go through all the index numbers:
+thistuple = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple):
+  print(thistuple[i])
+  i = i + 1
+
+# ********************************************************* #
+
+# ********************************************************* #
+
+# Join Tuples
+
+# Join two tuples:
+tuple1 = ("a", "b" , "c") #To join two or more tuples you can use the + operator:
+tuple2 = (1, 2, 3)
+tuple3 = tuple1 + tuple2
+print(tuple3)
+
+# Multiply Tuples
+
+# Multiply the fruits tuple by 2:
+fruits = ("apple", "banana", "cherry") #If you want to multiply the content of a tuple a given number of times, you can use the * operator:
+mytuple = fruits * 2
+print(mytuple)
+
+# ********************************************************* #
