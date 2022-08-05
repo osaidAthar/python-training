@@ -79,7 +79,6 @@ if x > 10:
     print("but not above 20.")
 
 # The pass Statement
-
 a = 33
 b = 200
 
