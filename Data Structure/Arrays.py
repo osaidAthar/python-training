@@ -17,6 +17,7 @@ print(cars)
 
 # Return the number of elements in the cars array:
 x = len(cars)
+
 print(x)
 
 # Looping Array Elements
